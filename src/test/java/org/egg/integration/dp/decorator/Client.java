@@ -1,9 +1,5 @@
-package org.egg.integration.dp.Decorator;
+package org.egg.integration.dp.decorator;
 
-import org.egg.integration.dp.decorator.DecoratorWare;
-import org.egg.integration.dp.decorator.People;
-import org.egg.integration.dp.decorator.WareDress;
-import org.egg.integration.dp.decorator.WareTShirt;
 import org.junit.Test;
 
 /**
@@ -21,7 +17,7 @@ public class Client {
         wareTShirt.decorator(people);
 
         WareDress wareDress = new WareDress();
-        wareDress.decorator(people);
+        wareDress.decorator(wareTShirt);
         wareDress.show();
 
     }
