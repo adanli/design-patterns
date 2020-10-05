@@ -8,6 +8,7 @@ import org.junit.Test;
 
 /**
  * 策略模式
+ * 包含策略模式和结合了工厂模式的策略模式两种使用方式
  */
 public class Client {
     @Test
